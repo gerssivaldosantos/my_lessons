@@ -19,3 +19,24 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+# Android native files
+
+android 
+
+# Ios native files
+
+ios 
+
+# Web files 
+
+web 
+
+# Other's
+
+analysis_options.yaml
+my_lessons.iml
+
+# tests
+
+test
