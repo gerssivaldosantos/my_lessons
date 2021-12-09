@@ -84,8 +84,15 @@ class _HomePageState extends State<HomePage> {
             child: Row(
               // ignore: prefer_const_literals_to_create_immutables
               children: <Widget>[
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(15.0),
+                  child: Image.network(
+                    "${lessonsData?[index]["Icon"]}",
+                    width: 100,
+                  ),
+                ),
                 Padding(
-                  padding: const EdgeInsets.all(12.0),
+                  padding: const EdgeInsets.all(40.0),
                   child: Text(
                     "${lessonsData?[index]["Name"]}",
                     style: const TextStyle(
